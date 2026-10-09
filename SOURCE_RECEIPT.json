@@ -1,0 +1,434 @@
+{
+  "schemaVersion": 2,
+  "status": "unchecked-source-candidate; Dev/main SOURCE-ONLY renewal explicitly RELEASED to primary; all checks and artifact adoption pending",
+  "date": "2026-10-09",
+  "owner": "foss-earth/dev",
+  "package": "@foss-earth/dev",
+  "version": "0.1.0",
+  "sourceRepository": "foss-earth/foss-earth.github.io",
+  "sourceRevision": "90e23b3ee96f53ec5900afc5991a21fffa58649d",
+  "kind": "new shared activation/lifecycle implementation from the repository split specification; current diagnostics remain in their feature owners",
+  "originalMappingStatus": "inspectedSource blob/SHA/license entries preserved; Dev was new contribution framework specified outside committed13-tab inventory",
+  "sourceFileManifestSha256": "6bf76870822f217229a939747af49f1982a3ea7ed089763117ee395cb845d634",
+  "treeDigest": {
+    "algorithm": "SHA256",
+    "encoding": "sorted UTF-8 path + NUL + lowercase content SHA256 + LF",
+    "sha256": "5b60054748b37bab52f6e085a871205ab7f0e76578f8473ffbdda53c53c6e77b",
+    "excludes": [
+      ".git/",
+      "build/",
+      "dist/",
+      "node_modules/",
+      "SOURCE_RECEIPT.json"
+    ]
+  },
+  "provenanceSha256": "6474b6c07a08ac6c51d4f89ecbbed7d70678adc194d777ca8bbf8adb68f23ee3",
+  "harnessSha256": "c0ebabc5094d1e060a5f7c6af19a5920d2be142a4c19c4c428bb4b145ae866ad",
+  "dependencyPlanSha256": "21d0c90a0145088bbca606fdba3332378d09f1e331fc2b91d6ad06345c8b6fda",
+  "files": [
+    {
+      "path": ".attribution-release.json",
+      "bytes": 2045,
+      "sha256": "c5324ea9476d99afbc5f63e9d5a15d597dd7ee27546499c392046b55fc361131"
+    },
+    {
+      "path": ".attribution.json",
+      "bytes": 491,
+      "sha256": "e4493f3031a5051398339cf9649a8e18efb8ece96f512761d8d145daf8347f7a"
+    },
+    {
+      "path": ".github/workflows/attribution-check.yml",
+      "bytes": 406,
+      "sha256": "63349507da9d004752bb0e43c681089dfd9fd6c26bf8047738cb19025f15135e"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 33,
+      "sha256": "ce16c01158260246e80455f0fd751a9af67372900af72eb2d963c91d9bff1718"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 572,
+      "sha256": "85eda2b7ca0f62daec6a079df415d34b02e90e38e69d792640033afcb7aac09b"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "bytes": 3442,
+      "sha256": "c3a907b9e659a0f5a4c701be1b34a7d416526c3a99f129bf4d3b9db09c7ffa9d"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 2613,
+      "sha256": "ae17c446b45bb7819aa2f12775c1acaf1a2626affbb49a8b0e578dccecadd69c"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 34523,
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9886,
+      "sha256": "8feee047a9475dcbf03074b1ac1556b13156013ba3dda1c22cd2d659e10187e4"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 791,
+      "sha256": "6baf6d3c1755360f5d902275c893074fd17af2fc10c140fe932b8a90d77d9942"
+    },
+    {
+      "path": "SOURCE_LINEAGE.json",
+      "bytes": 675,
+      "sha256": "d9fdddadf4c4000b56829d8e7c1ee307082a74ae680867b5d71fe35973b7b8bc"
+    },
+    {
+      "path": "SOURCE_PROVENANCE.json",
+      "bytes": 18321,
+      "sha256": "6474b6c07a08ac6c51d4f89ecbbed7d70678adc194d777ca8bbf8adb68f23ee3"
+    },
+    {
+      "path": "docs/admission.md",
+      "bytes": 1798,
+      "sha256": "16c6b472a7749bd6f7d82f9a217e2e1bd78480be8cc1f234c00cdaf6f4842759"
+    },
+    {
+      "path": "eslint.config.js",
+      "bytes": 630,
+      "sha256": "6392b05308c0b3b3528120361dad3b6d0441f70fcc83567782f76fcae135dc57"
+    },
+    {
+      "path": "fixtures/consumer/archive-input.example.json",
+      "bytes": 6050,
+      "sha256": "7a9d3404a09493a489c345da9900f120f1da8b415b2e70b51fbcfe544b420674"
+    },
+    {
+      "path": "fixtures/consumer/archive-input.schema.json",
+      "bytes": 1496,
+      "sha256": "3fbf3bad5e79bc789e0bd0f8b24099f32f8c74cdcbee5649c6056af3475155e7"
+    },
+    {
+      "path": "fixtures/consumer/browser.mjs",
+      "bytes": 3035,
+      "sha256": "eabb1aaf94952ee82cf52c341f85cdca9e4ca0bc9351dd126d0bd9d2e44ff528"
+    },
+    {
+      "path": "fixtures/consumer/dependency-plan.json",
+      "bytes": 7711,
+      "sha256": "21d0c90a0145088bbca606fdba3332378d09f1e331fc2b91d6ad06345c8b6fda"
+    },
+    {
+      "path": "fixtures/consumer/guard.mjs",
+      "bytes": 715,
+      "sha256": "010ce277622e091fa047785bcd0addfac7b10954ab89aa1f34df6039c9e076af"
+    },
+    {
+      "path": "fixtures/consumer/negative.mjs",
+      "bytes": 295,
+      "sha256": "e621a631f7657e537ded3205b0247ed97dbbd338118a70552324258e3a1df4f5"
+    },
+    {
+      "path": "fixtures/consumer/public.ts",
+      "bytes": 1362,
+      "sha256": "c840be3570f15ac8c5c4589126940fc2f83a022448b60fbdace4edac3890f7a5"
+    },
+    {
+      "path": "fixtures/consumer/pure.mjs",
+      "bytes": 3468,
+      "sha256": "1a34062bdafcfefd019d06b6bf9a6dd963d891530cf98d3ad6b867369af60378"
+    },
+    {
+      "path": "package.json",
+      "bytes": 2321,
+      "sha256": "6bba2d825e5c2f8ee4d159ca9efee43ac36a90111ed5df06dd5f3dbb5ab04447"
+    },
+    {
+      "path": "scripts/check-installed-artifact.mjs",
+      "bytes": 15118,
+      "sha256": "c0ebabc5094d1e060a5f7c6af19a5920d2be142a4c19c4c428bb4b145ae866ad"
+    },
+    {
+      "path": "scripts/check-public-consumer.mjs",
+      "bytes": 195,
+      "sha256": "ab39d255c0b5eeccfdaf45c4123487254286d864d9e4b446605aa2c56a315049"
+    },
+    {
+      "path": "src/activation.ts",
+      "bytes": 416,
+      "sha256": "59045c41e2539706a0441f9b4d6aa875a49ee00489cd81ad74ea4e9c25f12072"
+    },
+    {
+      "path": "src/browser.ts",
+      "bytes": 2612,
+      "sha256": "0f4db7b83f20627c2127ee000e74b0e4407296d9c5a20a8382049ec9727c66b7"
+    },
+    {
+      "path": "src/index.ts",
+      "bytes": 91,
+      "sha256": "ad91750354c5093a0d5aeb59f5bf27b8089e38a8787a41f265b0a2dc07f752ce"
+    },
+    {
+      "path": "src/session.ts",
+      "bytes": 8004,
+      "sha256": "37d57e0dcaec2e5d063207fa0b9a88f0321475075056e019d38afcdc6cb98a09"
+    },
+    {
+      "path": "src/types.ts",
+      "bytes": 2381,
+      "sha256": "f473cb7225548ae1f508a9d70e9397ded6d7c608476f578f928e0f7929a188bb"
+    },
+    {
+      "path": "styles/panel.css",
+      "bytes": 421,
+      "sha256": "1e03e2da201dd35488b70f1a08cbb9a1d459f48d5f02b9bead241de8b24bb6ce"
+    },
+    {
+      "path": "tests/browser.test.ts",
+      "bytes": 2853,
+      "sha256": "bb2cfbcd086a702cb86aa79802b0be53b7714225c12acf2a8602265c5f9514aa"
+    },
+    {
+      "path": "tests/session.test.ts",
+      "bytes": 14256,
+      "sha256": "8ffdd7c5cfdb772efd58eb5a476810018afd1a80dc70887303b6f003039e3d28"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 381,
+      "sha256": "004b4a9b4c500c3e49b34dcf8b2f5ff03711b76a0aa685abb605bc8a6a72ebd6"
+    },
+    {
+      "path": "vitest.config.ts",
+      "bytes": 270,
+      "sha256": "bc1b33bbde559ea92f0d5d232cdadf4cf6c5d48aa8632eefb5ecf143d8e02cea"
+    }
+  ],
+  "exports": [
+    ".",
+    "./browser",
+    "./panel.css"
+  ],
+  "contracts": [
+    "exact single dev=1; disabled host/factory work absent",
+    "one host-owned tab and explicit lazy ports/contributions; close/reopen/late dispose and failure cleanup retained",
+    "pure root/browser without DOM or implementation peers; supplied Document optional presentation; no implicit actions"
+  ],
+  "consumerPreparation": {
+    "entry": "scripts/check-installed-artifact.mjs",
+    "entrySha256": "64f3b17cc7e883ee110d08053f7bff790d1c912138465acc9a38fcc040ca7745",
+    "inputPlan": "fixtures/consumer/dependency-plan.json",
+    "inputPlanSha256": "21d0c90a0145088bbca606fdba3332378d09f1e331fc2b91d6ad06345c8b6fda",
+    "archivePins": null,
+    "mandatoryInputs": "actual Dev0.1.0, TypeScript5.9.3 and jsdom29.1.1 full required closure archives; name/version/SHA256/sizeBytes, owner build staged actual files only",
+    "implicitPacking": false,
+    "sourceLinks": false,
+    "runtimeIsolation": "realpath containment before any package/tool import; transitive runtime and declarations; negative ancestor file/package/outside-declaration controls",
+    "qualification": "not executed; exact archive installation/runtime/declaration/CSS/lifecycle checks pending",
+    "oldHarnessEvidence": "build/source-only/2026-10-09-dev-consumer/prior retains byte copies; ignored evidence is local and not distributed qualification"
+  },
+  "runtimeAndTests": [
+    {
+      "path": "src/index.ts",
+      "sha256": "ad91750354c5093a0d5aeb59f5bf27b8089e38a8787a41f265b0a2dc07f752ce",
+      "baselineSha256": "ad91750354c5093a0d5aeb59f5bf27b8089e38a8787a41f265b0a2dc07f752ce",
+      "sourceStatus": "existing implementation/assertions unchanged by consumer renewal"
+    },
+    {
+      "path": "src/session.ts",
+      "sha256": "09558bc8eb50876dc3e85785481c6d5ee22eca25da8ab8810ac0c02f6f33bd9d",
+      "baselineSha256": "09558bc8eb50876dc3e85785481c6d5ee22eca25da8ab8810ac0c02f6f33bd9d",
+      "sourceStatus": "existing implementation/assertions unchanged by consumer renewal"
+    },
+    {
+      "path": "src/types.ts",
+      "sha256": "526ffd6cd84b87679b58393755653277cd4a0bc63f509faef7f94e5d51927e23",
+      "baselineSha256": "526ffd6cd84b87679b58393755653277cd4a0bc63f509faef7f94e5d51927e23",
+      "sourceStatus": "existing implementation/assertions unchanged by consumer renewal"
+    },
+    {
+      "path": "src/activation.ts",
+      "sha256": "59045c41e2539706a0441f9b4d6aa875a49ee00489cd81ad74ea4e9c25f12072",
+      "baselineSha256": "59045c41e2539706a0441f9b4d6aa875a49ee00489cd81ad74ea4e9c25f12072",
+      "sourceStatus": "existing implementation/assertions unchanged by consumer renewal"
+    },
+    {
+      "path": "src/browser.ts",
+      "sha256": "0f4db7b83f20627c2127ee000e74b0e4407296d9c5a20a8382049ec9727c66b7",
+      "baselineSha256": "0f4db7b83f20627c2127ee000e74b0e4407296d9c5a20a8382049ec9727c66b7",
+      "sourceStatus": "existing implementation/assertions unchanged by consumer renewal"
+    },
+    {
+      "path": "tests/session.test.ts",
+      "sha256": "e229e94f3534afd566da99b4bcecabd465507d4a6a409cf4dedac22cecf82a7c",
+      "baselineSha256": "e229e94f3534afd566da99b4bcecabd465507d4a6a409cf4dedac22cecf82a7c",
+      "sourceStatus": "existing implementation/assertions unchanged by consumer renewal"
+    },
+    {
+      "path": "tests/browser.test.ts",
+      "sha256": "bb2cfbcd086a702cb86aa79802b0be53b7714225c12acf2a8602265c5f9514aa",
+      "baselineSha256": "bb2cfbcd086a702cb86aa79802b0be53b7714225c12acf2a8602265c5f9514aa",
+      "sourceStatus": "existing implementation/assertions unchanged by consumer renewal"
+    }
+  ],
+  "toolPins": {
+    "@types/node": "24.12.4",
+    "jsdom": "29.1.1",
+    "typescript": "5.9.3",
+    "vitest": "4.1.6",
+    "@eslint/js": "9.39.4",
+    "eslint": "9.39.4",
+    "typescript-eslint": "8.59.3",
+    "globals": "17.6.0",
+    "@foss-earth/ci": "0.1.0"
+  },
+  "checks": {
+    "state": "not-run",
+    "reason": "source-only lease; no check/import-as-test/install/build/pack authority exercised"
+  },
+  "artifact": null,
+  "destinationCommit": null,
+  "consumerAdoption": [],
+  "ciCallerPin": "9e046dd482e0229dc7c7b2d71b079d5905664656",
+  "policyDigest": "9ca88bf5861685e22e65e5f39fa65b05faaf9c218875fccbecce1b9f2dca5bd3",
+  "sharedCi": {
+    "revision": "9e046dd482e0229dc7c7b2d71b079d5905664656",
+    "archiveSha256": "450ede699f55f9b9c78146eadb73de7c6297e56553e7d7f9e5b164786a7beb24",
+    "policySha256": "9ca88bf5861685e22e65e5f39fa65b05faaf9c218875fccbecce1b9f2dca5bd3",
+    "requiredContext": "attribution / Attribution policy",
+    "sourceFiles": [
+      {
+        "path": ".attribution.json",
+        "sha256": "e4493f3031a5051398339cf9649a8e18efb8ece96f512761d8d145daf8347f7a",
+        "baselineSha256": "e4493f3031a5051398339cf9649a8e18efb8ece96f512761d8d145daf8347f7a",
+        "lease": "no writes by this renewal"
+      },
+      {
+        "path": ".attribution-release.json",
+        "sha256": "c5324ea9476d99afbc5f63e9d5a15d597dd7ee27546499c392046b55fc361131",
+        "baselineSha256": "c5324ea9476d99afbc5f63e9d5a15d597dd7ee27546499c392046b55fc361131",
+        "lease": "no writes by this renewal"
+      },
+      {
+        "path": ".github/workflows/attribution-check.yml",
+        "sha256": "63349507da9d004752bb0e43c681089dfd9fd6c26bf8047738cb19025f15135e",
+        "baselineSha256": "63349507da9d004752bb0e43c681089dfd9fd6c26bf8047738cb19025f15135e",
+        "lease": "no writes by this renewal"
+      },
+      {
+        "path": "AGENTS.md",
+        "sha256": "de656953133716d4acf05c52b026a454d114f698e074fa325e82b3fc1d5efe6d",
+        "baselineSha256": "de656953133716d4acf05c52b026a454d114f698e074fa325e82b3fc1d5efe6d",
+        "lease": "no writes by this renewal"
+      },
+      {
+        "path": "CONTRIBUTING.md",
+        "sha256": "3e4b363295e341632a6f30f1d3908d55b9df1e0b509533efc44d64d66073e1f6",
+        "baselineSha256": "3e4b363295e341632a6f30f1d3908d55b9df1e0b509533efc44d64d66073e1f6",
+        "lease": "no writes by this renewal"
+      }
+    ],
+    "conformance": "not run during renewal",
+    "fullIntendedRefAudit": "primary/coordinator pending",
+    "hostedAdmission": "coordinator verification pending",
+    "checkerCopied": false
+  },
+  "attributionPolicy": "YOU CANNOT HAVE AI AS A CO-AUTHOR, OR YOUR CONTRIBUTIONS WILL BE REJECTED.",
+  "compatibility": "Node/jsdom/public declaration source fixture only; no broad Node/OS/browser/GPU/device range or actual acceptance claimed",
+  "rollback": "old helper/provenance/receipt copies retained in owner ignored build; runtime/test sources and canonical app/dirty work/evidence unchanged; no refs/index/commit/remotes action",
+  "nextCommands": [
+    "stage exact reviewed archives and completed owner build input manifest; do not use incomplete example",
+    "DEV_CONSUMER_ARCHIVES=build/consumer-inputs/<run>/archives.json npm run check:implementation after grant and current candidate archive pack",
+    "npm run check:conformance with exact installed CI9e component",
+    "full intended-ref metadata audit after primary accepted lineage/candidate"
+  ],
+  "outstanding": [
+    "exact actual Dev/compiler/jsdom closure archive pins and installed inputs",
+    "coordinator check grant; retained implementation tests/typecheck/lint/build and guarded consumer",
+    "common CI conformance/full intended refs/actual remote admission",
+    "candidate/artifact source availability and actual Earth/Flight/Campus adoption",
+    "actual browser/device qualification"
+  ],
+  "scope": "Dev/main required optional cancellation factory, lifecycle cleanup, causal fixtures and packaged community/provenance/public source-byte guards only",
+  "timestamp": "2026-10-09T20:36:43.593157+00:00",
+  "writerRelease": "RELEASED: atlas_loader performs no further Dev writes/checks; primary owns source/index/ref/check authority after receipt intake",
+  "previousReceiptSha256": "d7e99dd530ec5c76a819fb2041fa379cd7e36661197b437923a363f95cb3589f",
+  "sourceOnlyRenewal": {
+    "beforeEvidence": "build/source-only/2026-10-09-dev-host-lifecycle/prior",
+    "beforeManifestSha256": "3599524ab58366acf592cc022c809e11614f26108aeb5c998c55b06a47537e05",
+    "sourceManifest": "build/source-only/2026-10-09-dev-host-lifecycle/source-files.json",
+    "sourceDeltaSha256": "d9f87c9831a3b2b2cb07d8092a29b8287c129ca7e00b0c38b76b84e02114c3e9",
+    "changedFiles": [
+      {
+        "path": "README.md",
+        "beforeSha256": "3d40874338ab140c67144c66af6bf79df89abada9280ea43d4c601926935b269",
+        "sha256": "8feee047a9475dcbf03074b1ac1556b13156013ba3dda1c22cd2d659e10187e4",
+        "bytes": 9886
+      },
+      {
+        "path": "fixtures/consumer/browser.mjs",
+        "beforeSha256": "46c7f57ae082d2263ba74c311a34b885cdd0fa24cbdd749fafcf83e5665968a0",
+        "sha256": "eabb1aaf94952ee82cf52c341f85cdca9e4ca0bc9351dd126d0bd9d2e44ff528",
+        "bytes": 3035
+      },
+      {
+        "path": "fixtures/consumer/public.ts",
+        "beforeSha256": "742f06fc500c6905dd32a17746982b6ff2ae352eef3e6023179780815b8e5fbf",
+        "sha256": "c840be3570f15ac8c5c4589126940fc2f83a022448b60fbdace4edac3890f7a5",
+        "bytes": 1362
+      },
+      {
+        "path": "fixtures/consumer/pure.mjs",
+        "beforeSha256": "12ae7df7c051907e8aa6358ec4923fafb3be8196b7726cbeac618aeb9781c1e0",
+        "sha256": "1a34062bdafcfefd019d06b6bf9a6dd963d891530cf98d3ad6b867369af60378",
+        "bytes": 3468
+      },
+      {
+        "path": "package.json",
+        "beforeSha256": "71549f11855ac024d9b887271d184f16da2f3cd9b6d9f7bb074eaf90fcc487e7",
+        "sha256": "6bba2d825e5c2f8ee4d159ca9efee43ac36a90111ed5df06dd5f3dbb5ab04447",
+        "bytes": 2321
+      },
+      {
+        "path": "scripts/check-installed-artifact.mjs",
+        "beforeSha256": "64f3b17cc7e883ee110d08053f7bff790d1c912138465acc9a38fcc040ca7745",
+        "sha256": "c0ebabc5094d1e060a5f7c6af19a5920d2be142a4c19c4c428bb4b145ae866ad",
+        "bytes": 15118
+      },
+      {
+        "path": "src/session.ts",
+        "beforeSha256": "09558bc8eb50876dc3e85785481c6d5ee22eca25da8ab8810ac0c02f6f33bd9d",
+        "sha256": "37d57e0dcaec2e5d063207fa0b9a88f0321475075056e019d38afcdc6cb98a09",
+        "bytes": 8004
+      },
+      {
+        "path": "src/types.ts",
+        "beforeSha256": "526ffd6cd84b87679b58393755653277cd4a0bc63f509faef7f94e5d51927e23",
+        "sha256": "f473cb7225548ae1f508a9d70e9397ded6d7c608476f578f928e0f7929a188bb",
+        "bytes": 2381
+      },
+      {
+        "path": "tests/session.test.ts",
+        "beforeSha256": "e229e94f3534afd566da99b4bcecabd465507d4a6a409cf4dedac22cecf82a7c",
+        "sha256": "8ffdd7c5cfdb772efd58eb5a476810018afd1a80dc70887303b6f003039e3d28",
+        "bytes": 14256
+      },
+      {
+        "path": "SOURCE_PROVENANCE.json",
+        "beforeSha256": "9c67a8655389442379f9839d7f57dd183d92006d4c99928f55028e6f26b8b44c",
+        "sha256": "6474b6c07a08ac6c51d4f89ecbbed7d70678adc194d777ca8bbf8adb68f23ee3",
+        "bytes": 18321
+      }
+    ],
+    "originalSessionAssertionBodiesPreserved": true,
+    "tests": "Five new causal unit cases plus actual installed source fixtures ALL UNRUN",
+    "checks": "NONE executed; primary reserved verification slot only",
+    "publicPort": "createAbortController?(): AbortController; canonical host must pass explicit factory; legacy omission remains supported",
+    "rollback": "Retained prior bytes restore old source behavior; public change additive. No new peer/dependency/export/lock/algorithm/CI mutation. Current source requires freshly built matching archive before installed check.",
+    "blockers": [
+      "Primary lint/type/unit/build/current archive + strict 41-archive consumer qualification UNRUN",
+      "Current sentence-case shared CI policy/caller/conformance pins pending Platform",
+      "Canonical host adoption/public distribution/actual remote admission not accepted"
+    ],
+    "artifact": null,
+    "consumerAdoption": []
+  }
+}

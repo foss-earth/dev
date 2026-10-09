@@ -1,0 +1,64 @@
+{
+  "name": "@foss-earth/dev",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Explicit dev=1 activation and host-owned diagnostic view lifecycle",
+  "license": "AGPL-3.0-only",
+  "type": "module",
+  "sideEffects": [
+    "./styles/panel.css"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./browser": {
+      "types": "./dist/browser.d.ts",
+      "import": "./dist/browser.js"
+    },
+    "./panel.css": "./styles/panel.css"
+  },
+  "files": [
+    "dist",
+    "styles",
+    "LICENSE",
+    "AGENTS.md",
+    "CONTRIBUTING.md",
+    "CODE_OF_CONDUCT.md",
+    "SECURITY.md",
+    "SOURCE_PROVENANCE.json",
+    "SOURCE_LINEAGE.json",
+    "README.md",
+    "docs",
+    "src",
+    "tsconfig.json",
+    "SOURCE_RECEIPT.json"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json --incremental --tsBuildInfoFile node_modules/.tmp/build.tsbuildinfo",
+    "typecheck": "tsc -p tsconfig.json --noEmit --incremental --tsBuildInfoFile node_modules/.tmp/typecheck.tsbuildinfo",
+    "test": "vitest run --maxWorkers=50%",
+    "ci": "npm run check:conformance && npm run check:implementation",
+    "lint": "eslint . --cache --cache-strategy content --cache-location node_modules/.cache/eslint/",
+    "check:implementation": "npm run lint && npm run typecheck && npm test && npm run build && npm run check:consumer",
+    "check:conformance": "node node_modules/@foss-earth/ci/bin/conformance.mjs --consumer . --trusted-release .attribution-release.json --output-root build/common-conformance",
+    "check:attribution": "node node_modules/@foss-earth/ci/bin/attribution.mjs --repo . --refs-file build/repository-split/intended-publication-refs.json",
+    "check:consumer": "node scripts/check-installed-artifact.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "24.12.4",
+    "jsdom": "29.1.1",
+    "typescript": "5.9.3",
+    "vitest": "4.1.6",
+    "@eslint/js": "9.39.4",
+    "eslint": "9.39.4",
+    "typescript-eslint": "8.59.3",
+    "globals": "17.6.0",
+    "@foss-earth/ci": "0.1.0"
+  },
+  "fossEarthSplit": {
+    "sourceRevision": "90e23b3ee96f53ec5900afc5991a21fffa58649d",
+    "admission": "same actual CI9e caller installed in source; shared conformance, full intended refs, lineage/candidate/artifact/hosted admission and consumer adoption pending"
+  }
+}

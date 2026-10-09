@@ -1,0 +1,339 @@
+{
+  "schemaVersion": 1,
+  "owner": "foss-earth/dev",
+  "status": "exact current tool metadata prerequisites only; no archives supplied/packed/installed/qualified",
+  "ownerPackage": {
+    "name": "@foss-earth/dev",
+    "version": "0.1.0"
+  },
+  "roots": [
+    "@foss-earth/dev",
+    "typescript",
+    "jsdom"
+  ],
+  "packages": [
+    {
+      "name": "@foss-earth/dev",
+      "version": "0.1.0",
+      "dependencies": {},
+      "requiredPeers": {}
+    },
+    {
+      "name": "@asamuzakjp/css-color",
+      "version": "5.1.11",
+      "dependencies": {
+        "@asamuzakjp/generational-cache": "^1.0.1",
+        "@csstools/css-calc": "^3.2.0",
+        "@csstools/css-color-parser": "^4.1.0",
+        "@csstools/css-parser-algorithms": "^4.0.0",
+        "@csstools/css-tokenizer": "^4.0.0"
+      },
+      "requiredPeers": {}
+    },
+    {
+      "name": "@asamuzakjp/dom-selector",
+      "version": "7.1.1",
+      "dependencies": {
+        "@asamuzakjp/generational-cache": "^1.0.1",
+        "@asamuzakjp/nwsapi": "^2.3.9",
+        "bidi-js": "^1.0.3",
+        "css-tree": "^3.2.1",
+        "is-potential-custom-element-name": "^1.0.1"
+      },
+      "requiredPeers": {}
+    },
+    {
+      "name": "@asamuzakjp/generational-cache",
+      "version": "1.0.1",
+      "dependencies": {},
+      "requiredPeers": {}
+    },
+    {
+      "name": "@asamuzakjp/nwsapi",
+      "version": "2.3.9",
+      "dependencies": {},
+      "requiredPeers": {}
+    },
+    {
+      "name": "@bramus/specificity",
+      "version": "2.4.2",
+      "dependencies": {
+        "css-tree": "^3.0.0"
+      },
+      "requiredPeers": {}
+    },
+    {
+      "name": "@csstools/color-helpers",
+      "version": "6.0.2",
+      "dependencies": {},
+      "requiredPeers": {}
+    },
+    {
+      "name": "@csstools/css-calc",
+      "version": "3.2.1",
+      "dependencies": {},
+      "requiredPeers": {
+        "@csstools/css-parser-algorithms": "^4.0.0",
+        "@csstools/css-tokenizer": "^4.0.0"
+      }
+    },
+    {
+      "name": "@csstools/css-color-parser",
+      "version": "4.1.1",
+      "dependencies": {
+        "@csstools/color-helpers": "^6.0.2",
+        "@csstools/css-calc": "^3.2.1"
+      },
+      "requiredPeers": {
+        "@csstools/css-parser-algorithms": "^4.0.0",
+        "@csstools/css-tokenizer": "^4.0.0"
+      }
+    },
+    {
+      "name": "@csstools/css-parser-algorithms",
+      "version": "4.0.0",
+      "dependencies": {},
+      "requiredPeers": {
+        "@csstools/css-tokenizer": "^4.0.0"
+      }
+    },
+    {
+      "name": "@csstools/css-syntax-patches-for-csstree",
+      "version": "1.1.4",
+      "dependencies": {},
+      "requiredPeers": {}
+    },
+    {
+      "name": "@csstools/css-tokenizer",
+      "version": "4.0.0",
+      "dependencies": {},
+      "requiredPeers": {}
+    },
+    {
+      "name": "@exodus/bytes",
+      "version": "1.15.0",
+      "dependencies": {},
+      "requiredPeers": {}
+    },
+    {
+      "name": "bidi-js",
+      "version": "1.0.3",
+      "dependencies": {
+        "require-from-string": "^2.0.2"
+      },
+      "requiredPeers": {}
+    },
+    {
+      "name": "css-tree",
+      "version": "3.2.1",
+      "dependencies": {
+        "mdn-data": "2.27.1",
+        "source-map-js": "^1.2.1"
+      },
+      "requiredPeers": {}
+    },
+    {
+      "name": "data-urls",
+      "version": "7.0.0",
+      "dependencies": {
+        "whatwg-mimetype": "^5.0.0",
+        "whatwg-url": "^16.0.0"
+      },
+      "requiredPeers": {}
+    },
+    {
+      "name": "decimal.js",
+      "version": "10.6.0",
+      "dependencies": {},
+      "requiredPeers": {}
+    },
+    {
+      "name": "entities",
+      "version": "8.0.0",
+      "dependencies": {},
+      "requiredPeers": {}
+    },
+    {
+      "name": "html-encoding-sniffer",
+      "version": "6.0.0",
+      "dependencies": {
+        "@exodus/bytes": "^1.6.0"
+      },
+      "requiredPeers": {}
+    },
+    {
+      "name": "is-potential-custom-element-name",
+      "version": "1.0.1",
+      "dependencies": {},
+      "requiredPeers": {}
+    },
+    {
+      "name": "jsdom",
+      "version": "29.1.1",
+      "dependencies": {
+        "@asamuzakjp/css-color": "^5.1.11",
+        "@asamuzakjp/dom-selector": "^7.1.1",
+        "@bramus/specificity": "^2.4.2",
+        "@csstools/css-syntax-patches-for-csstree": "^1.1.3",
+        "@exodus/bytes": "^1.15.0",
+        "css-tree": "^3.2.1",
+        "data-urls": "^7.0.0",
+        "decimal.js": "^10.6.0",
+        "html-encoding-sniffer": "^6.0.0",
+        "is-potential-custom-element-name": "^1.0.1",
+        "lru-cache": "^11.3.5",
+        "parse5": "^8.0.1",
+        "saxes": "^6.0.0",
+        "symbol-tree": "^3.2.4",
+        "tough-cookie": "^6.0.1",
+        "undici": "^7.25.0",
+        "w3c-xmlserializer": "^5.0.0",
+        "webidl-conversions": "^8.0.1",
+        "whatwg-mimetype": "^5.0.0",
+        "whatwg-url": "^16.0.1",
+        "xml-name-validator": "^5.0.0"
+      },
+      "requiredPeers": {}
+    },
+    {
+      "name": "lru-cache",
+      "version": "11.3.6",
+      "dependencies": {},
+      "requiredPeers": {}
+    },
+    {
+      "name": "mdn-data",
+      "version": "2.27.1",
+      "dependencies": {},
+      "requiredPeers": {}
+    },
+    {
+      "name": "parse5",
+      "version": "8.0.1",
+      "dependencies": {
+        "entities": "^8.0.0"
+      },
+      "requiredPeers": {}
+    },
+    {
+      "name": "punycode",
+      "version": "2.3.1",
+      "dependencies": {},
+      "requiredPeers": {}
+    },
+    {
+      "name": "require-from-string",
+      "version": "2.0.2",
+      "dependencies": {},
+      "requiredPeers": {}
+    },
+    {
+      "name": "saxes",
+      "version": "6.0.0",
+      "dependencies": {
+        "xmlchars": "^2.2.0"
+      },
+      "requiredPeers": {}
+    },
+    {
+      "name": "source-map-js",
+      "version": "1.2.2",
+      "dependencies": {},
+      "requiredPeers": {}
+    },
+    {
+      "name": "symbol-tree",
+      "version": "3.2.4",
+      "dependencies": {},
+      "requiredPeers": {}
+    },
+    {
+      "name": "tldts",
+      "version": "7.0.30",
+      "dependencies": {
+        "tldts-core": "^7.0.30"
+      },
+      "requiredPeers": {}
+    },
+    {
+      "name": "tldts-core",
+      "version": "7.0.30",
+      "dependencies": {},
+      "requiredPeers": {}
+    },
+    {
+      "name": "tough-cookie",
+      "version": "6.0.1",
+      "dependencies": {
+        "tldts": "^7.0.5"
+      },
+      "requiredPeers": {}
+    },
+    {
+      "name": "tr46",
+      "version": "6.0.0",
+      "dependencies": {
+        "punycode": "^2.3.1"
+      },
+      "requiredPeers": {}
+    },
+    {
+      "name": "typescript",
+      "version": "5.9.3",
+      "dependencies": {},
+      "requiredPeers": {}
+    },
+    {
+      "name": "undici",
+      "version": "7.25.0",
+      "dependencies": {},
+      "requiredPeers": {}
+    },
+    {
+      "name": "w3c-xmlserializer",
+      "version": "5.0.0",
+      "dependencies": {
+        "xml-name-validator": "^5.0.0"
+      },
+      "requiredPeers": {}
+    },
+    {
+      "name": "webidl-conversions",
+      "version": "8.0.1",
+      "dependencies": {},
+      "requiredPeers": {}
+    },
+    {
+      "name": "whatwg-mimetype",
+      "version": "5.0.0",
+      "dependencies": {},
+      "requiredPeers": {}
+    },
+    {
+      "name": "whatwg-url",
+      "version": "16.0.1",
+      "dependencies": {
+        "@exodus/bytes": "^1.11.0",
+        "tr46": "^6.0.0",
+        "webidl-conversions": "^8.0.1"
+      },
+      "requiredPeers": {}
+    },
+    {
+      "name": "xml-name-validator",
+      "version": "5.0.0",
+      "dependencies": {},
+      "requiredPeers": {}
+    },
+    {
+      "name": "xmlchars",
+      "version": "2.2.0",
+      "dependencies": {},
+      "requiredPeers": {}
+    }
+  ],
+  "optionalNativeExcluded": [
+    "canvas"
+  ],
+  "acceptedArchives": null
+}

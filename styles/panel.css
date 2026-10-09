@@ -1,0 +1,12 @@
+.foss-earth-dev {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  gap: 12px;
+  padding: 12px;
+}
+.foss-earth-dev__section { width: fit-content; max-width: 100%; }
+.foss-earth-dev__section h3 { font-size: 1em; margin: 0 0 6px; }
+.foss-earth-dev__section p { margin: 4px 0; }
+.foss-earth-dev__body { display: flex; flex-wrap: wrap; align-items: start; gap: 6px 10px; }
+.foss-earth-dev__status { opacity: 0.75; }

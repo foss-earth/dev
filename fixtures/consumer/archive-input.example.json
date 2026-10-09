@@ -1,0 +1,294 @@
+{
+  "schemaVersion": 1,
+  "planSha256": "21d0c90a0145088bbca606fdba3332378d09f1e331fc2b91d6ad06345c8b6fda",
+  "status": "NONINSTALLABLE input template; archive paths/digests/sizes must come from actual reviewed archives; no accepted pins",
+  "packages": [
+    {
+      "name": "@foss-earth/dev",
+      "version": "0.1.0",
+      "archive": null,
+      "sha256": null,
+      "sizeBytes": null
+    },
+    {
+      "name": "@asamuzakjp/css-color",
+      "version": "5.1.11",
+      "archive": null,
+      "sha256": null,
+      "sizeBytes": null
+    },
+    {
+      "name": "@asamuzakjp/dom-selector",
+      "version": "7.1.1",
+      "archive": null,
+      "sha256": null,
+      "sizeBytes": null
+    },
+    {
+      "name": "@asamuzakjp/generational-cache",
+      "version": "1.0.1",
+      "archive": null,
+      "sha256": null,
+      "sizeBytes": null
+    },
+    {
+      "name": "@asamuzakjp/nwsapi",
+      "version": "2.3.9",
+      "archive": null,
+      "sha256": null,
+      "sizeBytes": null
+    },
+    {
+      "name": "@bramus/specificity",
+      "version": "2.4.2",
+      "archive": null,
+      "sha256": null,
+      "sizeBytes": null
+    },
+    {
+      "name": "@csstools/color-helpers",
+      "version": "6.0.2",
+      "archive": null,
+      "sha256": null,
+      "sizeBytes": null
+    },
+    {
+      "name": "@csstools/css-calc",
+      "version": "3.2.1",
+      "archive": null,
+      "sha256": null,
+      "sizeBytes": null
+    },
+    {
+      "name": "@csstools/css-color-parser",
+      "version": "4.1.1",
+      "archive": null,
+      "sha256": null,
+      "sizeBytes": null
+    },
+    {
+      "name": "@csstools/css-parser-algorithms",
+      "version": "4.0.0",
+      "archive": null,
+      "sha256": null,
+      "sizeBytes": null
+    },
+    {
+      "name": "@csstools/css-syntax-patches-for-csstree",
+      "version": "1.1.4",
+      "archive": null,
+      "sha256": null,
+      "sizeBytes": null
+    },
+    {
+      "name": "@csstools/css-tokenizer",
+      "version": "4.0.0",
+      "archive": null,
+      "sha256": null,
+      "sizeBytes": null
+    },
+    {
+      "name": "@exodus/bytes",
+      "version": "1.15.0",
+      "archive": null,
+      "sha256": null,
+      "sizeBytes": null
+    },
+    {
+      "name": "bidi-js",
+      "version": "1.0.3",
+      "archive": null,
+      "sha256": null,
+      "sizeBytes": null
+    },
+    {
+      "name": "css-tree",
+      "version": "3.2.1",
+      "archive": null,
+      "sha256": null,
+      "sizeBytes": null
+    },
+    {
+      "name": "data-urls",
+      "version": "7.0.0",
+      "archive": null,
+      "sha256": null,
+      "sizeBytes": null
+    },
+    {
+      "name": "decimal.js",
+      "version": "10.6.0",
+      "archive": null,
+      "sha256": null,
+      "sizeBytes": null
+    },
+    {
+      "name": "entities",
+      "version": "8.0.0",
+      "archive": null,
+      "sha256": null,
+      "sizeBytes": null
+    },
+    {
+      "name": "html-encoding-sniffer",
+      "version": "6.0.0",
+      "archive": null,
+      "sha256": null,
+      "sizeBytes": null
+    },
+    {
+      "name": "is-potential-custom-element-name",
+      "version": "1.0.1",
+      "archive": null,
+      "sha256": null,
+      "sizeBytes": null
+    },
+    {
+      "name": "jsdom",
+      "version": "29.1.1",
+      "archive": null,
+      "sha256": null,
+      "sizeBytes": null
+    },
+    {
+      "name": "lru-cache",
+      "version": "11.3.6",
+      "archive": null,
+      "sha256": null,
+      "sizeBytes": null
+    },
+    {
+      "name": "mdn-data",
+      "version": "2.27.1",
+      "archive": null,
+      "sha256": null,
+      "sizeBytes": null
+    },
+    {
+      "name": "parse5",
+      "version": "8.0.1",
+      "archive": null,
+      "sha256": null,
+      "sizeBytes": null
+    },
+    {
+      "name": "punycode",
+      "version": "2.3.1",
+      "archive": null,
+      "sha256": null,
+      "sizeBytes": null
+    },
+    {
+      "name": "require-from-string",
+      "version": "2.0.2",
+      "archive": null,
+      "sha256": null,
+      "sizeBytes": null
+    },
+    {
+      "name": "saxes",
+      "version": "6.0.0",
+      "archive": null,
+      "sha256": null,
+      "sizeBytes": null
+    },
+    {
+      "name": "source-map-js",
+      "version": "1.2.2",
+      "archive": null,
+      "sha256": null,
+      "sizeBytes": null
+    },
+    {
+      "name": "symbol-tree",
+      "version": "3.2.4",
+      "archive": null,
+      "sha256": null,
+      "sizeBytes": null
+    },
+    {
+      "name": "tldts",
+      "version": "7.0.30",
+      "archive": null,
+      "sha256": null,
+      "sizeBytes": null
+    },
+    {
+      "name": "tldts-core",
+      "version": "7.0.30",
+      "archive": null,
+      "sha256": null,
+      "sizeBytes": null
+    },
+    {
+      "name": "tough-cookie",
+      "version": "6.0.1",
+      "archive": null,
+      "sha256": null,
+      "sizeBytes": null
+    },
+    {
+      "name": "tr46",
+      "version": "6.0.0",
+      "archive": null,
+      "sha256": null,
+      "sizeBytes": null
+    },
+    {
+      "name": "typescript",
+      "version": "5.9.3",
+      "archive": null,
+      "sha256": null,
+      "sizeBytes": null
+    },
+    {
+      "name": "undici",
+      "version": "7.25.0",
+      "archive": null,
+      "sha256": null,
+      "sizeBytes": null
+    },
+    {
+      "name": "w3c-xmlserializer",
+      "version": "5.0.0",
+      "archive": null,
+      "sha256": null,
+      "sizeBytes": null
+    },
+    {
+      "name": "webidl-conversions",
+      "version": "8.0.1",
+      "archive": null,
+      "sha256": null,
+      "sizeBytes": null
+    },
+    {
+      "name": "whatwg-mimetype",
+      "version": "5.0.0",
+      "archive": null,
+      "sha256": null,
+      "sizeBytes": null
+    },
+    {
+      "name": "whatwg-url",
+      "version": "16.0.1",
+      "archive": null,
+      "sha256": null,
+      "sizeBytes": null
+    },
+    {
+      "name": "xml-name-validator",
+      "version": "5.0.0",
+      "archive": null,
+      "sha256": null,
+      "sizeBytes": null
+    },
+    {
+      "name": "xmlchars",
+      "version": "2.2.0",
+      "archive": null,
+      "sha256": null,
+      "sizeBytes": null
+    }
+  ]
+}

@@ -431,11 +431,11 @@
     "artifact": null,
     "consumerAdoption": []
   },
-  "verifiedAtUtc": "2026-10-09T23:42:48.870315+00:00",
+  "verifiedAtUtc": "2026-10-10T00:09:04.844299+00:00",
   "currentSourceManifest": {
-    "path": "/Users/felg/gh/foss-earth/foss-earth.github.io/build/repository-split/checks/2026-10-09-granted-verification/dev-sealed-source-files.json",
-    "sha256": "ce8e2eba1f1979584cbf04a82b3d3613fe950fbb843922a3a66cb9eed8e2f7e7",
-    "fileCount": 35
+    "path": "/Users/felg/gh/foss-earth/foss-earth.github.io/build/repository-split/checks/2026-10-09-granted-verification/dev-r4-sealed-source-files.json",
+    "sha256": "82b67794e122ac8f6e4f4788d31c2661f01023c0573fcd6df50b630ec57e3454",
+    "fileCount": 36
   },
   "currentSharedCi": {
     "revision": "1db73d1ddb342e348a2c9e8387f7bbc7ebb3225e",
@@ -455,6 +455,11 @@
     {
       "receipt": "/Users/felg/gh/foss-earth/foss-earth.github.io/build/repository-split/checks/2026-10-09-granted-verification/dev-current-conformance.json",
       "sha256": "b6da044faa3fcb127e3b2d276f5082100334327b41f0750886b82d0ea28d38f6",
+      "exitCode": 0
+    },
+    {
+      "receipt": "/Users/felg/gh/foss-earth/foss-earth.github.io/build/repository-split/checks/2026-10-09-granted-verification/dev-r4-track-canonical.json",
+      "sha256": "2cc99dcb56e7e5a5c1de71cc1547039919ad58f8f79afc81c010193a1d63ad5b",
       "exitCode": 0
     }
   ]

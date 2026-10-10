@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "status": "Current source seal; individual retained check receipts define qualification. Installed archive and application/remote adoption separately recorded in external release descriptor.",
+  "status": "Current portable source seal; external exact delivery describes implementation/browser/ref qualification and outstanding remote gates.",
   "date": "2026-10-09",
   "owner": "foss-earth/dev",
   "package": "@foss-earth/dev",
@@ -431,11 +431,12 @@
     "artifact": null,
     "consumerAdoption": []
   },
-  "verifiedAtUtc": "2026-10-10T00:09:04.844299+00:00",
+  "verifiedAtUtc": "2026-10-10T03:24:50.844213+00:00",
   "currentSourceManifest": {
-    "path": "/Users/felg/gh/foss-earth/foss-earth.github.io/build/repository-split/checks/2026-10-09-granted-verification/dev-r4-sealed-source-files.json",
-    "sha256": "82b67794e122ac8f6e4f4788d31c2661f01023c0573fcd6df50b630ec57e3454",
-    "fileCount": 36
+    "evidenceId": "dev-current-source-files.json",
+    "sha256": "4a521f606d4a2303888f2f4e8bc92c1fcbe61ee731a0f0809a2161edbc4e92ba",
+    "fileCount": 36,
+    "scope": "Private retained documentary evidence, not an artifact path or public URL"
   },
   "currentSharedCi": {
     "revision": "1db73d1ddb342e348a2c9e8387f7bbc7ebb3225e",
@@ -443,24 +444,29 @@
     "artifactSha256": "bd884d925b8a7339b15fa61a477cf652bb73d41cc68addf50a050ab6cb151611",
     "descriptorSha256": "d60ee5067185a768f0890da2ed87d82dbfa08f28282e4d05a35e823c70307122",
     "callerSha256": "b9fdfbf4bd61ed727abaef4fd9990b92714a6d2c1388feec600dc16337436b2c",
-    "fullIntendedRefs": "external release descriptor; mandatory complete nonempty audit after this commit",
+    "fullIntendedRefs": "complete external delivery audit after this commit",
     "remoteAdmissionVerifiedByOwner": false
   },
   "currentChecks": [
     {
-      "receipt": "/Users/felg/gh/foss-earth/foss-earth.github.io/build/repository-split/checks/2026-10-09-granted-verification/dev-ci-install.json",
+      "evidenceId": "dev-ci-install.json",
       "sha256": "ad7e6507e2aa7af1115f4d0d23ebfada8c14bda4ffa03981b2fb851964f3c30e",
       "exitCode": 0
     },
     {
-      "receipt": "/Users/felg/gh/foss-earth/foss-earth.github.io/build/repository-split/checks/2026-10-09-granted-verification/dev-current-conformance.json",
+      "evidenceId": "dev-current-conformance.json",
       "sha256": "b6da044faa3fcb127e3b2d276f5082100334327b41f0750886b82d0ea28d38f6",
       "exitCode": 0
     },
     {
-      "receipt": "/Users/felg/gh/foss-earth/foss-earth.github.io/build/repository-split/checks/2026-10-09-granted-verification/dev-r4-track-canonical.json",
+      "evidenceId": "dev-r4-track-canonical.json",
       "sha256": "2cc99dcb56e7e5a5c1de71cc1547039919ad58f8f79afc81c010193a1d63ad5b",
       "exitCode": 0
     }
-  ]
+  ],
+  "publicationEvidence": {
+    "scope": "Portable public provenance for prior retained local qualification. Execution/source manifests remain private retained evidence identified by documentary evidence IDs and their unchanged SHA256 seals. Evidence IDs are not package-relative files or public download URLs.",
+    "originalReceiptSha256": "4e400b0aea88685f6cba3e381bfa878eebc53c25d705b820decbab8021d2d46f",
+    "currentPreparation": "Metadata-only portable publication candidate; new source/artifact/ref qualification remains pending. Existing individual check receipts and exact archive descriptors retain qualification only for their original bytes and scope."
+  }
 }
